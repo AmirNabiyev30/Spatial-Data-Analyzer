@@ -1,6 +1,10 @@
 #include <iostream>
+#include <vector>
+#include <cstdlib>
+#include <fstream>
+using namespace std;
 
 int main() {
-    std::cout << "Hello, Worldwewewe!" << std::endl;
+    cout << "Hello, Worldwewewe!" << endl;
     return 0;
 }

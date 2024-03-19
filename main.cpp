@@ -1,10 +1,15 @@
+
+#include "Cordinate.h"
 #include <iostream>
 #include <vector>
 #include <cstdlib>
 #include <fstream>
-using namespace std;
+
 
 int main() {
-    cout << "Hello, Worldwewewe!" << endl;
+    //defines the txt file
+    std::ifstream spatialFile;
+
+
     return 0;
 }

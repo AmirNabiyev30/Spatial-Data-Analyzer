@@ -17,9 +17,9 @@ namespace Coords{
         public:
         //constructor classes
         Coordinate();
-        Coordinate(const std::string& coords);
+        Coordinate(const std::string& coords, bool twoD);
         //function that reads coordinates
-        void ReadCoordinates(const std::string& line, bool twoD);
+        void ReadCoordinates(const std::string& coordinates, bool twoD);
 
 
 

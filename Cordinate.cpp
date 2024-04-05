@@ -3,7 +3,9 @@
 //
 #include "Cordinate.h"
 #include <string>
-#include <cstring>
+#include<iostream>
+#include <vector>
+
 
 Coords::Coordinate::Coordinate(){
     coordinates = "";
@@ -11,10 +13,10 @@ Coords::Coordinate::Coordinate(){
     two_dimensional=false;
 
 };
-Coords::Coordinate::Coordinate(const std::string& coords){
+Coords::Coordinate::Coordinate(const std::string& coords,bool twoD){
      coordinates  = coords;
      occurences = 0;
-     two_dimensional = false;
+     two_dimensional = twoD;
      ReadCoordinates(coordinates,two_dimensional);
 };
 

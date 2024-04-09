@@ -6,7 +6,7 @@
 #include<iostream>
 #include <vector>
 
-
+//constructors
 Coords::Coordinate::Coordinate(){
     coordinates = "";
     occurences =  0;
@@ -20,6 +20,17 @@ Coords::Coordinate::Coordinate(const std::string& coords,bool twoD){
      ReadCoordinates(coordinates,two_dimensional);
 };
 
+//getter and setters
+
+std::vector<int> Coords::Coordinate::getCoordinates(){
+    return coordinateValues;
+};
+
+int Coords::Coordinate::getOccurences() {
+    return occurences;
+}
+
+//reading coordinate functions
 void Coords::Coordinate::ReadCoordinates(const std::string& line, bool twoD) {
     int axises;
     //defining axises depending on what

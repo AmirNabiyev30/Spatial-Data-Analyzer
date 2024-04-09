@@ -18,11 +18,11 @@ namespace Coords{
         //constructor classes
         Coordinate();
         Coordinate(const std::string& coords, bool twoD);
+        //getter and setter
+        std::vector<int> getCoordinates();
+        int getOccurences();
         //function that reads coordinates
         void ReadCoordinates(const std::string& coordinates, bool twoD);
-
-
-
 
 
     };

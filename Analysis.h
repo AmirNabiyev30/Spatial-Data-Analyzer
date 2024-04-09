@@ -1,0 +1,8 @@
+//
+// Created by Amir Nabiyev on 4/9/24.
+//
+
+#ifndef SPATIAL_DATA_ANALYZER_ANALYSIS_H
+#define SPATIAL_DATA_ANALYZER_ANALYSIS_H
+
+#endif //SPATIAL_DATA_ANALYZER_ANALYSIS_H
